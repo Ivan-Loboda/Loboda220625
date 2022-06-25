@@ -76,7 +76,7 @@ function ChartHorizontal() {
 
   return (
     <div className={s.container}>
-      <h2>SPENT TIME (SECONDS)</h2>
+      <h2 className={s.title}>SPENT TIME (SECONDS)</h2>
       <Bar options={options} data={data} />
       <button type="button" className={s.button} onClick={handleClick}>
         RANDOMIZE
